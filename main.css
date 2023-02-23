@@ -351,3 +351,7 @@ header h1 {
     display: block;
     transition: var(--transition);
 }
+
+.slide .switch {
+    left: 50%;
+}
