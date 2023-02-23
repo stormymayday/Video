@@ -338,3 +338,16 @@ header h1 {
     text-transform: capitalize;
     color: var(--primary-500);
 }
+
+.switch {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: var(--primary-500);
+    border-radius: var(--borderRadius);
+    margin: 0;
+    display: block;
+    transition: var(--transition);
+}
