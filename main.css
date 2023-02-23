@@ -282,6 +282,17 @@ Video
 ===============
 */
 
+header {
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+header h1 {
+    color: var(--white);
+}
+
 .video-container {
     position: absolute;
     top: 0;
