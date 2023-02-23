@@ -330,3 +330,11 @@ header h1 {
     border: none;
     transition: var(--transition);
 }
+
+.switch-btn span {
+    display: inline-block;
+    font-size: 0.85rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: var(--primary-500);
+}
